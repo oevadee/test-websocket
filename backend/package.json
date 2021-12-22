@@ -1,0 +1,19 @@
+{
+  "name": "test-websockets",
+  "version": "1.0.0",
+  "description": "testing websockets with js",
+  "main": "server.js",
+  "author": "oevadee",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "socket.io": "^4.4.0"
+  }
+}
