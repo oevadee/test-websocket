@@ -12,4 +12,4 @@ export const App = () => (
       </a>
     </p>
   </>
-)
+);
