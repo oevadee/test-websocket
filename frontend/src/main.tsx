@@ -2,4 +2,7 @@ import { render } from 'preact';
 import { App } from './App';
 import './index.css';
 
-render(<App />, document.getElementById('app')!);
+const el = document.getElementById('app');
+if (el) {
+  render(<App />, el);
+}
